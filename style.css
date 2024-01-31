@@ -11,3 +11,9 @@
     font-size: 30px;
     text-align: center;
   }
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #333; /* You can change the color as per your preference */
+    margin-bottom: 20px; /* Adds some space between the title and the grid */
+}
