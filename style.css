@@ -17,3 +17,12 @@
     color: #333; /* You can change the color as per your preference */
     margin-bottom: 20px; /font-family: 'Sixtyfour', sans-serif;
 }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8); /* You might adjust or remove this if the background images are sufficient */
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-size: cover; /* Ensures the image covers the whole div */
+    background-position: center; /* Centers the background image */
+  }
