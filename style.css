@@ -6,8 +6,8 @@
   
 
   model-viewer {
-    width: 100vw; /* 100% of the viewport width */
-    height: 100vh; /* 100% of the viewport height */
+    width: 100vw !important; /* 100% of the viewport width */
+    height: 100vh !important; /* 100% of the viewport height */
 }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8); /* Adjust or remove as needed */
