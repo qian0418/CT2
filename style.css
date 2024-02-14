@@ -19,3 +19,5 @@
     background-position: center; /* Centers the background image */
     height: 50vh; /* Sets the height to half of the viewport height */
   }
+  p, h1{font-family: "Sixtyfour", sans-serif;
+  }
