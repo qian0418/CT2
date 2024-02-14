@@ -12,47 +12,18 @@
 
 <body>
     <div class="container">
-        <model-viewer src="chinese_dragon.glb" ar ar-modes="webxr quick-look" camera-controls tone-mapping="commerce"
-            poster="poster.webp" shadow-intensity="1" camera-orbit="-357.5deg 68.39deg 7.195m" field-of-view="15.78deg"
-            min-camera-orbit="auto 36deg auto" max-camera-orbit="auto 101deg auto" auto-rotate>
-            <button class="Hotspot" slot="hotspot-1"
-                data-position="-1.3199187028172368m -9.252931900677108m 10.55534888705879m"
-                data-normal="0.2655689072597292m 0.3691995783331107m 0.8905980164224075m"
-                data-visibility-attribute="visible" disable-tap>
-                <div class="HotspotAnnotation">CROCODILE</div>
-            </button><button class="Hotspot" slot="hotspot-2"
-                data-position="-0.6301012476239338m -8.778891838078803m 9.733958475463965m"
-                data-normal="-0.877966543666589m 0.007878884816626654m 0.47865715431422273m"
-                data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">RIVER NILE</div>
-            </button><button class="Hotspot" slot="hotspot-3"
-                data-position="-1.6384835569100888m -8.834236230442942m 9.868868678332868m"
-                data-normal="0.5162503256611297m 0.3399247449103209m 0.7860895426428411m"
-                data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">EARS OF WHEAT</div>
-            </button><button class="Hotspot" slot="hotspot-4"
-                data-position="0.5464565617678188m -8.21863258718121m 10.082488119997768m"
-                data-normal="-0.39480314487241697m 0.31281441324864273m 0.8638736132460331m"
-                data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">FRUIT</div>
-            </button><button class="Hotspot" slot="hotspot-5"
-                data-position="0.6021612810300332m -9.062702124062756m 10.237839839532155m"
-                data-normal="0.10326767699010436m 0.4091707405597348m 0.9065953297689469m"
-                data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">SPHINX</div>
-            </button><button class="Hotspot" slot="hotspot-6"
-                data-position="-2.857115751297596m -9.296861578060144m 9.757410054114185m"
-                data-normal="-0.5578589866909672m 0.800123716725689m 0.22044361841794574m"
-                data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">CROCODILE</div>
-            </button><button class="Hotspot" slot="hotspot-7"
-                data-position="-1.458379996552964m -8.406454089696881m 9.55394817612772m"
-                data-normal="-0.10767899479830552m -0.5113214679214482m 0.8526169072460866m"
-                data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">CUBIT OF WATER</div>
+        <model-viewer src="chinese_dragon.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+            <button class="Hotspot" slot="hotspot-1" data-position="-13.510206151872035m 13.70561019665674m -2.50155720872932m" data-normal="0.29867940294749523m 0.8589314479517088m 0.41596560191259646m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">head</div>
             </button>
-
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <button slot="ar-button" id="ar-button">
+                View in your space
+            </button>
             <div id="ar-prompt">
+                <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
             </div>
         </model-viewer>
 
