@@ -21,3 +21,20 @@
   }
   p, h1{font-family: "Sixtyfour", sans-serif;
   }
+  /* Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Creates 5 columns of equal width */
+  gap: 10px; /* Space between grid items */
+}
+
+/* Grid Item */
+.grid-item {
+  width: 100%; /* Ensures the grid item fills its container */
+}
+
+/* Images within grid items */
+.grid-item img {
+  width: 100%; /* Ensures images are fully responsive within their containers */
+  height: auto; /* Maintains the aspect ratio of the images */
+}
